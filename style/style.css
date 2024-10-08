@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: "Afacad Flux", sans-serif;
+}
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: bisque;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+@page {
+    size: A4;
+    margin: 0;
+  }
+.subpage{
+    border: 1px ; 
+    padding: 1cm;
+    height: 7cm;
+}
+.foto{
+    border:1px ;
+    float: left;
+    width: 15%;
+    height: 3cm;
+    align-content: center;
+
+    
+}
+.ms{
+    border: 1px ;
+    height: 0.7cm;
+    width: 1cm;
+    padding: 0cm;
+    align-content: center;
+    float: inline-start ;
+}
+.judul{
+    border: 1px , solid white;
+    border-bottom-color: gray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#foto1{
+    height: 3cm;
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#foto2{
+    height: 0.7cm;
+    width: 100%;
+}
+.Nama{
+    border: 1px ;
+    float: right;
+    width: 83%;
+    height: 3cm;
+    align-content: center; 
+}
